@@ -1,0 +1,19 @@
+.categoryForm {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.categoryLabel {
+    margin-right: 10px;
+    text-justify: auto;
+}
+
+.addCategoryHeader {
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.selectCategory {
+    margin-left: 20px;
+}

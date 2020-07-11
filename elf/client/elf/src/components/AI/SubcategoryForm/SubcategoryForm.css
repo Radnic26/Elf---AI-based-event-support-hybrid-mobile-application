@@ -1,0 +1,18 @@
+.addSubcategoryHeader {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.selectSubcategory{
+    margin-left: 20px;
+}
+
+.subcategoryLabel {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.subcategoryForm {
+    margin-top: 20px;
+    margin-right: 10px;
+}

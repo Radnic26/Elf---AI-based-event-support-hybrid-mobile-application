@@ -1,0 +1,60 @@
+[
+    {
+    "key" : {
+        "entities" : [{
+            "category" : "components",
+            "subcategory" : "wheel"
+        }, {
+            "category" : "behaviour",
+            "subcategory" : "movement"
+        }, {
+            "category" : "behaviour_action",
+            "subcategory" : "direction"
+        }]
+    },
+    "solution" : "Interschimba cablurile de la motoare in placuta de control a acestora."
+    }, 
+    {
+    "key" : {
+        "entities" : [{
+            "category" : "components",
+            "subcategory" : "sensors"
+        }, {
+            "category" : "behaviour",
+            "subcategory" : "movement"
+        }, {
+            "category" : "behaviour_action",
+            "subcategory" : "direction"
+        }]
+    },
+    "solution" : [
+        "Interschimba cablurile senzorilor in placuta Arduino.",
+        "da"
+        ]
+    },
+    {
+        "key" : {
+            "entities" : [{
+                "category" : "components",
+                "subcategory" : "food"
+            }, {
+                "category" : "behaviour",
+                "subcategory" : "order"
+            }]
+        },
+        "solution" : [
+            "Da, consider ca este o idee foarte buna! Nu exista nici un risc."
+            ]
+    },
+    {
+        "key" : {
+            "entities" : [{
+                "category" : "components",
+                "subcategory" : "joke"
+            }]
+        },
+        "solution" : [
+            "Un pitic intră într-o librarie şi întreabă: – Aveți vreo carte despre ironie? Bibliotecarul: Avem, e pe raftul de sus!"
+            ]
+    }
+]

@@ -1,0 +1,25 @@
+Motor
+
+1. se invarte o roata invers
+2. robotul nu urmareste linia
+3. roata nu se invarte deloc
+4. nici o roata nu merge
+5. s-a dezlipit motorul
+6. in eventualitatea in care roata stanga merge invers, ce trebuie facut?
+7. ambele roti merg invers
+
+
+1.  Unde este imbusul?
+    Cu ce construiesc robotul?
+    Cu ce asamblez?
+    Ce folosesc pentru asamblare?
+    Unde gasesc imbusul?
+    Ce surubelnita folosesc?
+    Unde este surubelnita?
+
+2.  Unde gasesc componentele?
+    Unde gasesc suruburile?
+    Unde gasesc piulitele?
+    Unde gasesc etc?
+
+3.  

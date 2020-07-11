@@ -1,0 +1,68 @@
+[        
+    {
+        "category" : "components",
+        "subcategory" : "wheel",
+        "examples" : [
+            "roata", 
+            "rotile"
+        ]
+    }, 
+    {
+        "category" : "components",
+        "subcategory" : "food",
+        "examples" : [
+            "kfc"
+        ]
+    }, 
+    {
+        "category" : "components",
+        "subcategory" : "joke",
+        "examples" : [
+            "gluma",
+            "banc",
+            "amuzant",
+            "haios"
+        ]
+    },
+    {
+        "category" : "components",
+        "subcategory" : "sensors",
+        "examples" : [
+            "senzor", 
+            "senzor de linie",
+            "linia"
+        ]
+    },
+    {
+        "category" : "behaviour",
+        "subcategory" : "movement",
+        "examples" : [
+            "se invarte",
+            "nimic"
+        ]
+    }, 
+    {
+        "category" : "behaviour",
+        "subcategory" : "order",
+        "examples" : [
+            "a comanda",
+            "comanda",
+            "sa comandam",
+            "sa mancam"
+        ]
+    }, 
+    {
+        "category" : "behaviour_action",
+        "subcategory" : "direction",
+        "examples" : [
+            "invers",
+            "nu face stanga", 
+            "nu face dreapta", 
+            "nu vireaza", 
+            "inainte", 
+            "nu se opreste",
+            "nu urmareste"
+        ] 
+    }
+]
+    

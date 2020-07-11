@@ -1,0 +1,30 @@
+{
+  "name": "database_backend",
+  "version": "1.0.2",
+  "description": "The backend for the mysql database",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "nodemon app.js",
+    "ngrok": "cd ../../../../ngrok/ngrok-stable-linux-amd64; ./ngrok http 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://radnic26@bitbucket.org/radnic26/licenta.git"
+  },
+  "author": "Radu Niculae",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/radnic26/licenta#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.1.0",
+    "node-nlp": "^3.10.2",
+    "sequelize": "^5.21.6"
+  }
+}
