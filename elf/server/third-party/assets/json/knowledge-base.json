@@ -56,5 +56,49 @@
         "solution" : [
             "Un pitic intră într-o librarie şi întreabă: – Aveți vreo carte despre ironie? Bibliotecarul: Avem, e pe raftul de sus!"
             ]
+    },
+    {
+        "key" : {
+            "entities" : [{
+                "category" : "greetings",
+                "subcategory" : "basic"
+            }]
+        },
+        "solution" : [
+            "Buna, ma bucur sa te cunosc!"
+            ]
+    },
+    {
+        "key" : {
+            "entities" : [{
+                "category" : "greetings",
+                "subcategory" : "basic"
+            }]
+        },
+        "solution" : [
+            "Excelent! Abia astept sa lucram impreuna."
+            ]
+    },
+    {
+        "key" : {
+            "entities" : [{
+                "category" : "greetings",
+                "subcategory" : "ok"
+            }]
+        },
+        "solution" : [
+            "Buna, ma bucur sa te cunosc!"
+            ]
+    },
+    {
+        "key" : {
+            "entities" : [{
+                "category" : "behaviour",
+                "subcategory" : "not_following_2"
+            }]
+        },
+        "solution" : [
+            "Incearca sa calibrezi senzorii de linie."
+            ]
     }
 ]

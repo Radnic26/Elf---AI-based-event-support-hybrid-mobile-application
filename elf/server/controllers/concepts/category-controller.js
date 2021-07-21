@@ -31,8 +31,6 @@ const getAllCategoriesMultipleJoins = async (req, res, next) => {
 }
 
 const createCategory = async(req, res, next) => {
-
-    console.log(req.body)
     try {
 
         await Category.create(req.body)
@@ -60,13 +58,13 @@ const updateCategory = async(req, res, next) => {
 const deleteCategory = async(req, res, next) => {
     try {
         let category = await Category.findByPk(req.params.cid)
-        if(category) {
+        if (category) {
             let subcategory = await Subcategory.findAll({
                 where: {
                     categoryId: category.id
                 }
             })
-            if(subcategory) {
+            if (subcategory) {
                 await Example.destroy({
                     where: {
                         subcategoryId: subcategory[0].dataValues.id

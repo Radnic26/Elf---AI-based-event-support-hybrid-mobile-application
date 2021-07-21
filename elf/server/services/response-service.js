@@ -13,7 +13,7 @@ const proposeSolution = async (question) => {
         }
     })
     let candidates = knowledgeBase.filter((e) => isKeyEqual(searchKey, e.key))
-    if(candidates.length < 2) {
+    if (candidates.length < 2) {
         return candidates[0]
     }
     else {

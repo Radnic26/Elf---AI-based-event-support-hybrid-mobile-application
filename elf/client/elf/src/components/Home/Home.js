@@ -56,7 +56,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function Home(props) {
-  const { window } = props
+  const { windows } = props
   const { currentUser } = props
   const classes = useStyles()
   const theme = useTheme()
@@ -105,6 +105,10 @@ function Home(props) {
     }
   }
 
+  const logout = () => {
+    localStorage.removeItem('userToken')
+    window.location.reload()
+  }
 
   const drawer = (
     <div className="HomeDiv">
@@ -114,32 +118,32 @@ function Home(props) {
       <List>
       
         <ListItem key="currentUserFullName">
-          <ListItemIcon><img alt="drawerChatIcon" src={currentUser.photoURL} style={{ width: '34px' }} /></ListItemIcon>
+          <ListItemIcon><img alt="drawerChatIcon" src={currentUser.photoURL} style={{ height: '34px' }} /></ListItemIcon>
           <ListItemText primary={currentUser.name}/>
         </ListItem>
         <Divider />
         <ListItem button key='Chat' onClick={chatItemClicked}>
-          <ListItemIcon><img alt="drawerChatIcon" src="https://img.icons8.com/bubbles/50/000000/chat.png" style={{ width: '40px' }} /></ListItemIcon>
+          <ListItemIcon><img alt="drawerChatIcon" src="https://img.icons8.com/bubbles/50/000000/chat.png" style={{ height: '40px' }} /></ListItemIcon>
           <ListItemText primary="Chat" />
         </ListItem>
         <ListItem button key='Account' onClick={accountItemClicked}>
-          <ListItemIcon><img alt="drawerAccountIcon" src="https://img.icons8.com/bubbles/50/000000/test-account.png" style={{ width: '40px' }} /></ListItemIcon>
+          <ListItemIcon><img alt="drawerAccountIcon" src="https://img.icons8.com/bubbles/50/000000/test-account.png" style={{ height: '40px' }} /></ListItemIcon>
           <ListItemText primary="Contul Meu" />
-        </ListItem>
-        <ListItem button key='Settings' onClick={settingsItemClicked}>
-          <ListItemIcon><img alt="drawerSettingsIcon" src="https://img.icons8.com/bubbles/50/000000/gears.png" style={{ width: '40px' }} /></ListItemIcon>
-          <ListItemText primary="Setări" />
         </ListItem>
       </List>
       <Divider />
       <ListItem button key='AI' onClick={aiItemClicked}>
-        <ListItemIcon><img alt="drawerSettingsIcon" src="https://img.icons8.com/bubbles/50/000000/learning.png" style={{ width: '40px' }} /></ListItemIcon>
+        <ListItemIcon><img alt="drawerSettingsIcon" src="https://img.icons8.com/bubbles/50/000000/learning.png" style={{ height: '40px' }} /></ListItemIcon>
         <ListItemText primary="AI" />
+      </ListItem>
+      <ListItem button key='Logout' onClick={logout}>
+        <ListItemIcon><img alt="logoutIcon" src="https://img.icons8.com/dusk/64/000000/logout-rounded-up.png" style={{ height: '30px', marginLeft: '5px' }} /></ListItemIcon>
+        <ListItemText primary="Iesire" />
       </ListItem>
     </div>
   );
 
-  const container = window !== undefined ? () => window().document.body : undefined
+  const container = windows !== undefined ? () => windows().document.body : undefined
 
   return (
     <div className={classes.root}>

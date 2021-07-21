@@ -50,7 +50,30 @@
             "sa comandam",
             "sa mancam"
         ]
-    }, 
+    },
+    {
+        "category" : "components",
+        "subcategory" : "description",
+        "examples" : [
+            "Ce componente are robotul?",
+            "Care sunt componentele robotului?"
+        ] 
+    },
+    {
+        "category" : "greetings",
+        "subcategory" : "ok",
+        "examples" : [
+            "bunaa",
+            "salut",
+            "buna", 
+            "hey", 
+            "iasoo",
+            "neatza",
+            "buna dimineata",
+            "buna ziua",
+            "buna seara"
+        ]
+    },
     {
         "category" : "behaviour_action",
         "subcategory" : "direction",
@@ -63,6 +86,24 @@
             "nu se opreste",
             "nu urmareste"
         ] 
+    },
+    {
+        "category" : "greetings",
+        "subcategory" : "advanced",
+        "examples" : [
+            "ce faci?",
+            "ce faci shaico?", 
+            "care-i treaba"
+        ] 
+    },
+    {
+        "category" : "behaviour",
+        "subcategory" : "not_following_2",
+        "examples" : [
+            "nu urmareste linia",
+            "merge drept",
+            "nu intoarce"
+        ]
     }
 ]
     

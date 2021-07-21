@@ -30,7 +30,7 @@
             },
             {
               "xml": "<feature name=\"CDVOrientation\"><param name=\"android-package\" value=\"cordova.plugins.screenorientation.CDVOrientation\" /></feature>",
-              "count": 1
+              "count": 2
             }
           ]
         }
